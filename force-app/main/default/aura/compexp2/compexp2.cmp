@@ -1,0 +1,6 @@
+<aura:component >
+    student name : Rk<br/>
+    age: 24<br/>
+    location kukatpally<br/>
+    this is called from  appexp1.
+</aura:component>

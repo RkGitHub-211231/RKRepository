@@ -1,0 +1,4 @@
+<aura:component >
+    institute name : capital info<br/>
+    institute location: madhapur<br/>
+</aura:component>

@@ -1,0 +1,8 @@
+<aura:component>
+    <aura:attribute name="StudentName" type="String" default="optionalDefault" />
+    <aura:attribute name="Age" type="Decimal" default="optionalDefault" />
+    <aura:attribute name="ColgName" type="String" default="optionalDefault" />
+    StudentName : {!v.StudentName}
+    Age : {!v.Age}
+    CollegeName : {!v.ColgName}
+</aura:component>

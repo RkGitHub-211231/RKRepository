@@ -1,0 +1,13 @@
+<template>
+    <lightning-card title="Calculator Example">
+        <div slot="footer">
+            Result: 
+            <lightning-badge label={result}></lightning-badge>
+        </div> &nbsp;&nbsp;
+        <div slot="footer">
+            <c-result-comp-using-api result={result}></c-result-comp-using-api>
+        </div>
+        <lightning-input value={firstnumber} name="fnumber" label="Enter First Number" onchange={handleChanges}></lightning-input>
+        <lightning-input value={secondnumber} name="snumber" label="Enter Second Number" onchange={handleChanges}></lightning-input>
+    </lightning-card>
+</template>

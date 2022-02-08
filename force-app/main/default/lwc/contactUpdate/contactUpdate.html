@@ -1,0 +1,15 @@
+<template>
+    <lightning-card title="contactUpdate">
+            <lightning-layout>
+                <lightning-layout-item>
+                    <lightning-record-form
+                        record-id={recordId}
+                        object-api-name={objectApiName}
+                        fields={selectedFields}
+                        onsuccess={showSuccessNotification}
+                        >
+                    </lightning-record-form>
+                </lightning-layout-item>
+            </lightning-layout>
+    </lightning-card>
+</template>

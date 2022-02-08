@@ -1,0 +1,38 @@
+<template>
+    <lightning-card>
+      <div slot="title">
+        <h3> 
+            <lightning-icon icon-name="standard:account" size="small"></lightning-icon> Create an Account Using Apex Controller in LWC           
+         </h3>
+      </div>    
+  
+     <p class="slds-p-horizontal_small">
+       <lightning-input type="text" label="Name" value={getAccountRecord.Name} onchange={nameInpChange}></lightning-input>
+      </p>
+  
+      <p class="slds-p-horizontal_small">
+       <lightning-input type="text" label="Phone" value={getAccountRecord.Phone} onchange={phoneInpChange}></lightning-input>
+      </p>
+  
+      <p class="slds-p-horizontal_small">
+        <lightning-input type="text" label="Type" value={getAccountRecord.Type} onchange={typeInpChange}></lightning-input>
+       </p>
+   
+       <p class="slds-p-horizontal_small">
+        <lightning-input type="text" label="Website" value={getAccountRecord.Website} onchange={websiteInpChange}></lightning-input>
+       </p>
+         
+  
+       <p class="slds-p-horizontal_small">
+        <lightning-input type="text" label="Account Site" value={getAccountRecord.Site} onchange={accSiteChange}></lightning-input>       
+       </p> 
+       
+     <div slot="footer">
+       <lightning-button label="Submit" onclick={saveAccountAction} variant="brand"></lightning-button>
+     </div>
+  
+    <br/><br/>
+      <p><img src="https://www.w3web.net/wp-content/uploads/2021/05/thumbsUpLike.png" width="25" height="25" style="vertical-align:top; margin-right:10px;"/> <strong> <span style="font-size:15px; font-style:italic; display:inline-block; margin-right:5px;">Don't forget to check out:-</span> <a href="https://www.w3web.net/" target="_blank" style="text-decoration:none;" rel="noopener noreferrer">An easy way to learn step-by-step online free tutorial, To know more Click  <span style="color:#ff8000; font-size:18px;">Here..</span></a></strong></p>
+  
+   </lightning-card>
+  </template>

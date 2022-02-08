@@ -1,0 +1,5 @@
+<aura:component >
+    name: Ramakrishna<br/> 
+    age:24<br/>
+    city: kukatpally
+</aura:component>

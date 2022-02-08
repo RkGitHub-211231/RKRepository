@@ -1,0 +1,45 @@
+<template>
+    <template if:true={busData}>
+
+        <div class="slds-scrollable_y">
+
+         
+
+          
+
+        <lightning-card title="List Of Busses">
+
+          <lightning-layout horizontal-align="center" multiple-rows>
+
+           
+
+            <template for:each={busData} for:item="bus">
+
+             
+              <lightning-layout-item key={bus.Id} padding="around-small" size="12" small-device-size="6" medium-device-size="4" large-device-size="3">
+
+               
+
+               
+
+               
+
+                <img src={bus.Picture__c} alt="Image Missing" onclick={handleClick} />
+
+               
+
+              </lightning-layout-item>
+
+            </template>
+
+          </lightning-layout>
+
+        </lightning-card>
+
+        </div>
+
+      </template>
+
+     
+
+</template>

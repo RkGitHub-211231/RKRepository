@@ -1,0 +1,10 @@
+<aura:component >
+    <aura:attribute name = "studentname" type="string"/>
+    <aura:attribute name = "age" type="integer" required="true"/>
+	<aura:attribute name = "salary" type="decimal" default="1000"/>
+    <br/>
+    name: {!v.studentname} <br/>
+    age: {!v.age} <br/>
+    salary: {!v.salary} <br/>
+
+</aura:component>

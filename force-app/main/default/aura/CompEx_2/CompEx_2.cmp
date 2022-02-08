@@ -1,0 +1,6 @@
+<aura:component >
+	studentName : Swapna<br/>
+    Mobile No: 9565498798<br/>
+    location : Hyderabad<br/><br/>
+    <c:CompEx_1 /> 
+</aura:component>

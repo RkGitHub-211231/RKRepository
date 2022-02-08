@@ -1,0 +1,8 @@
+<aura:component >
+    institute name : capital info<br/>
+    institute location: madhapur<br/>
+    
+    this is called from  appexp1.<br/>
+    <br/>
+    <c:compexp4/>
+</aura:component>

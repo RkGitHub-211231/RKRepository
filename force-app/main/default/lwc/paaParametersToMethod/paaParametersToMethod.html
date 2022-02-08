@@ -1,0 +1,13 @@
+<template>
+    <lightning-card title="Addition">
+        <lightning-input label="Enter First Number" type="number" value={fNum} name="fstNumber" onchange={handleChange}></lightning-input>
+        <lightning-input label="Enter Second Number" type="number" value={sNum} name="sndNumber" onchange={handleChange}></lightning-input>
+        <div slot="footer">
+            Result is : {sum} &nbsp;
+            {greeting}
+        </div>
+        <div slot="actions">
+            <lightning-button label="Sumbit" onclick={handleResult}></lightning-button>
+        </div>
+    </lightning-card>
+</template>

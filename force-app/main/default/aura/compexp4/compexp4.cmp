@@ -1,0 +1,3 @@
+<aura:component >
+    This component called from another component called compexp3<br/>
+</aura:component>

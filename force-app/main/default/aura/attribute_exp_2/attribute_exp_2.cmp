@@ -1,0 +1,7 @@
+<aura:component >
+    <aura:attribute name="empname" type="string" default="not-mentioned"/>
+    <aura:attribute name="company" type="string" default="FCera"/>
+    
+    name={!v.empname}<br/>
+    company={!v.company}
+</aura:component>

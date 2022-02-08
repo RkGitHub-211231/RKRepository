@@ -1,0 +1,15 @@
+<template>
+    <lightning-card title="Record Form Account Details">
+            <lightning-layout>
+                <lightning-layout-item>
+                    <lightning-record-form
+                        
+                        object-api-name="Account"
+                        fields={selectedFields}
+                        onsuccess={showSuccessNotification}
+                        >
+                    </lightning-record-form>
+                </lightning-layout-item>
+            </lightning-layout>
+    </lightning-card>
+</template>

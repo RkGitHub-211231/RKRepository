@@ -1,0 +1,9 @@
+<template>
+    <lightning-card>
+        <h3 slot="title"> calculator </h3>
+
+        <lightning-input> value={firstnumber} name="firstnumber" label="first Number" onchange={handlechanges}</lightning-input>
+        <lightning-input> value={secondnumber} name="secondnumber" label="second Number"onchange={handlechanges}</lightning-input>
+        <h3 slot="footer"> {result} </h3>
+    </lightning-card>
+</template>

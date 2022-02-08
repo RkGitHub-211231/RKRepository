@@ -1,0 +1,5 @@
+<aura:component >
+	name: Swapna<br/>
+    age:23<br/>
+    city: Hyderabad <br/>
+</aura:component>
